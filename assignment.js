@@ -1,7 +1,9 @@
+//https://github.com/toripy/Javascript
+
 // 1 kilometer = 1000meter
 function kilometerToMeter(km) {
     if (km < 0) {
-        console.log("Length can not be negative.")
+        return "Length can not be negative.";
     } else {
         var meter = km * 1000;
         return meter;
@@ -12,7 +14,7 @@ function kilometerToMeter(km) {
 //clock = 50$, phone = 100$. laptop = 500$
 function budgeCalculator(clock, phone, laptop) {
     if (clock < 0 || phone < 0 || laptop < 0) {
-        console.log('please enter a valid number');
+        return 'please enter a valid number';
     } else {
         var total = (clock * 50) + (phone * 100) + (laptop * 500);
         return total;
