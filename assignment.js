@@ -58,6 +58,3 @@ function megaFriend(arr) {
         return largestname;
     }
 }
-
-
-console.log(budgeCalculator(10, 10, -1))
